@@ -13,13 +13,32 @@
     "command": "npm start",
     "requiresCredentials": false,
     "validation": "passed",
-    "validatedAt": "2026-10-24T13:04:53.894525+00:00",
+    "validatedAt": "2026-10-24T15:13:12.589085+00:00",
     "isolatedInstallation": true,
     "sourceSha256": "cc2f393e70dfce7f254a9b4d5a8fcdc2f0623af4906bfc4ede691a4eb174ae2a",
-    "manifestSha256": "a3c0234464e7905a315ec1ff56adff22990a1811f2242d96347f4d08752a2ac3"
+    "manifestSha256": "6e64af036bb4217f0fb6d43a625bdebef28f082b521f517c0cc067fa6bf62101"
   },
   "npmPackages": [
     "@x12i/ui-data-mapper-docs"
   ],
-  "publisher": "x12i-publisher[bot]"
+  "publisher": "x12i-publisher[bot]",
+  "additionalExamples": {
+    "@x12i/ui-data-mapper": {
+      "packageVersion": "0.8.0",
+      "title": "Normalize a consuming UI package through its browser-bundler entrypoint",
+      "entrypoint": "src/ui-data-mapper-example.mjs",
+      "command": "npm run example:ui-data-mapper",
+      "requiresCredentials": false,
+      "validation": "passed",
+      "isolatedInstallation": true,
+      "sourceSha256": "f0d20c181ef152310e5c78f396c6159feb319e7d98328e5a4e8ac02eb223ccd8",
+      "manifestSha256": "6e64af036bb4217f0fb6d43a625bdebef28f082b521f517c0cc067fa6bf62101",
+      "validatedAt": "2026-10-24T15:13:12.589085+00:00"
+    }
+  },
+  "validationFiles": {
+    "src/index.mjs": "cc2f393e70dfce7f254a9b4d5a8fcdc2f0623af4906bfc4ede691a4eb174ae2a",
+    "src/ui-data-mapper-example.mjs": "f0d20c181ef152310e5c78f396c6159feb319e7d98328e5a4e8ac02eb223ccd8",
+    "src/ui-package-fixture.mjs": "802a538cb55b5d76197ca09600ecd7876e55f523b34f24763754304a31de439f"
+  }
 }

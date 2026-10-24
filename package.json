@@ -2,14 +2,15 @@
   "name": "ui-data-mapper-usage",
   "version": "1.0.0",
   "private": true,
-  "description": "Usage example for @x12i/ui-data-mapper-docs: list the bundled guides and read a use case.",
+  "description": "Tested consuming examples for @x12i/ui-data-mapper-docs, @x12i/ui-data-mapper",
   "type": "module",
   "engines": {
     "node": ">=24"
   },
   "scripts": {
     "start": "node src/index.mjs",
-    "check": "node --check src/index.mjs"
+    "check": "node --check src/index.mjs",
+    "example:ui-data-mapper": "node src/ui-data-mapper-example.mjs"
   },
   "devDependencies": {
     "@x12i/ui-data-mapper-docs": "0.2.0"
@@ -18,5 +19,11 @@
     "type": "git",
     "url": "https://github.com/x12i-sdk/ui-data-mapper.git"
   },
-  "homepage": "https://www.npmjs.com/package/@x12i/ui-data-mapper-docs"
+  "homepage": "https://www.npmjs.com/package/@x12i/ui-data-mapper-docs",
+  "dependencies": {
+    "@x12i/ui-data-mapper": "0.8.0",
+    "esbuild": "0.28.2",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  }
 }

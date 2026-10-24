@@ -31,3 +31,20 @@ This is a documentation knowledge SDK. It is installed as a development dependen
 - [Reviewed package source](https://github.com/x12i/ui-data-mapper/tree/01440858172c2988710f44051e108cd5c2bb5a4f/packages/ui-data-mapper-docs)
 
 The `package.json` in this repository is private to prevent accidental publication of the example application under an npm package name.
+
+## @x12i/ui-data-mapper runtime example
+
+Map an existing HTML UI to object/property and semantic UI metadata, with interactive SVG connectors.
+
+Normalize a consuming UI package through its browser-bundler entrypoint. This example consumes `@x12i/ui-data-mapper@0.8.0`.
+
+```sh
+npm install --ignore-scripts
+npm run example:ui-data-mapper
+```
+
+Source: [`src/ui-data-mapper-example.mjs`](src/ui-data-mapper-example.mjs). The original documentation-package example remains available through `npm start`. Both examples are checked independently.
+
+## Runtime fixture scope
+
+This runtime consumer uses injected responses, an isolated DOM, temporary files or pure data helpers. It does not contact a live service, launch a browser, query MongoDB or create production metadata. UI/Data Mapper checks its package-normalization helper through the advertised mapper subpath and a browser bundle; CSS is excluded because the fixture renders no UI. Lattix checks its client subpath rather than mounting a graph component.
