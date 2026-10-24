@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "package": "@x12i/ui-data-mapper-docs",
+  "packageVersion": "0.2.0",
+  "npmUrl": "https://www.npmjs.com/package/@x12i/ui-data-mapper-docs",
+  "usageRepository": "https://github.com/x12i-sdk/ui-data-mapper",
+  "sourceRepository": "https://github.com/x12i/ui-data-mapper",
+  "sourceCommit": "01440858172c2988710f44051e108cd5c2bb5a4f",
+  "sourcePackageDirectory": "packages/ui-data-mapper-docs",
+  "example": {
+    "title": "List the bundled guides and read a use case",
+    "entrypoint": "src/index.mjs",
+    "command": "npm start",
+    "requiresCredentials": false,
+    "validation": "passed",
+    "validatedAt": "2026-10-24T13:04:53.894525+00:00",
+    "isolatedInstallation": true,
+    "sourceSha256": "cc2f393e70dfce7f254a9b4d5a8fcdc2f0623af4906bfc4ede691a4eb174ae2a",
+    "manifestSha256": "a3c0234464e7905a315ec1ff56adff22990a1811f2242d96347f4d08752a2ac3"
+  },
+  "npmPackages": [
+    "@x12i/ui-data-mapper-docs"
+  ],
+  "publisher": "x12i-publisher[bot]"
+}
